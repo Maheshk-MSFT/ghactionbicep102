@@ -1,6 +1,6 @@
 @minLength(3)
 @maxLength(11)
-param storagePrefix string
+param storagePrefix string = 'loppos23'
 
 @allowed([
   'Standard_LRS'
