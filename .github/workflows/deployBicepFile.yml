@@ -20,5 +20,5 @@ jobs:
         subscriptionId: '3a56c060-2d3e-431f-824a-23c67c266e14'
         resourceGroupName: 'aksbicepcreate102-RG'
         template: ./main.bicep
-        parameters: 'storagePrefix=biceptest237166 storageSKU=Standard_LRS'
+        parameters: 'storageSKU=Standard_LRS'
         failOnStdErr: false
