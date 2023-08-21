@@ -18,7 +18,7 @@ jobs:
       uses: azure/arm-deploy@v1
       with:
         subscriptionId: '3a56c060-2d3e-431f-824a-23c67c266e14'
-        resourceGroupName: 'aksbicepcreate102-RG'
+        resourceGroupName: 'aksbicepcreate103'
         template: ./main.bicep
         parameters: 'storageSKU=Standard_LRS'
         failOnStdErr: false
