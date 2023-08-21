@@ -1,6 +1,6 @@
 @minLength(3)
 @maxLength(11)
-param storageName string = 'lo23oioeir'
+param storageName string = 'fteeeed'
 
 @allowed([
   'Standard_LRS'
@@ -13,10 +13,8 @@ param storageName string = 'lo23oioeir'
   'Standard_RAGZRS'
 ])
 param storageSKU string = 'Standard_LRS'
-
 param location string = 'eastus'
-
-var uniqueStorageName = concat(storagePrefix, storageName))
+var uniqueStorageName = storageName
  
 
 resource stg 'Microsoft.Storage/storageAccounts@2021-04-01' = {
