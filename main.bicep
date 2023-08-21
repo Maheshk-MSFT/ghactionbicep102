@@ -14,7 +14,7 @@ param storageName string = 'lo23oioeir'
 ])
 param storageSKU string = 'Standard_LRS'
 
-param location string = 'aksbicepcreate103'
+param location string = 'eastus'
 
 var uniqueStorageName = storageName
 
