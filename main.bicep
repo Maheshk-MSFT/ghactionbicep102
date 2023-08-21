@@ -1,6 +1,6 @@
 @minLength(3)
 @maxLength(11)
-param storageName string = 'loppos23oioeir'
+param storageName string = 'lo23oioeir'
 
 @allowed([
   'Standard_LRS'
