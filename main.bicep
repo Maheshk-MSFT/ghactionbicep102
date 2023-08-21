@@ -16,7 +16,8 @@ param storageSKU string = 'Standard_LRS'
 
 param location string = 'eastus'
 
-var uniqueStorageName = storageName
+var uniqueStorageName = concat(storagePrefix, storageName))
+ 
 
 resource stg 'Microsoft.Storage/storageAccounts@2021-04-01' = {
   name: uniqueStorageName
