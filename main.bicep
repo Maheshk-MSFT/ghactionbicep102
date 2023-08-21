@@ -14,7 +14,7 @@ param storagePrefix string = 'loppos23'
 ])
 param storageSKU string = 'Standard_LRS'
 
-param location string = resourceGroup().location
+param location string = 'aksbicepcreate102-RG'
 
 var uniqueStorageName = '${storagePrefix}${uniqueString(resourceGroup().id)}'
 
